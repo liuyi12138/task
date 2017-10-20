@@ -1,0 +1,47 @@
+#include <stdio.h>
+#include <stdlib.h>
+#define size 20
+
+int main()
+{
+    double a;
+    int k,i,q,p,m,n,c,d,e;
+    int b=1;
+    int num[size];
+    printf("please enter a number.\n");
+    scanf("%lf",&a);
+    for (k=0;b!=a;++k)
+    {
+        for(i=0,c=1;i<=k;++i)
+        {
+            c*=10;
+        }
+        b=a%c;
+    }
+    for(q=k;q>0;--q)
+    {
+        for(p=1,d=1;p<q;++p)
+           {
+               d*=10;
+           }
+        num[p]=a/d;
+        a-=(num[q]*d);
+    }
+
+   double new=0;
+    for(m=k;m>0;--m)
+    {
+        for(n=1,e=1;n<m;++n)
+        {
+            e*=10;
+        }
+
+    new+=(num[k+1-n]*e);
+
+    }
+printf("%lf",new);
+
+    return 0;
+
+
+}
