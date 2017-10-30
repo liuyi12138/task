@@ -1,0 +1,20 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+typedef struct Struct{
+    int id;
+    double grades;
+} Student;
+
+void struct_sort(Student* students);
+{
+struct Struct stu[50];
+ int i;
+
+ for(i=0;i<5;i++)
+ {
+
+  scanf("%s %d",&Student[i].id,&Student[i].grades);
+ }
+}
+
