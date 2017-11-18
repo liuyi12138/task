@@ -1,0 +1,18 @@
+# depslib dependency file v1.0
+1511006960 source:d:\biancheng\programming\task\joseph's ring\creat.c
+	<stdio.h>
+	<stdlib.h>
+	"a_head.h"
+
+1511006445 d:\biancheng\programming\task\joseph's ring\a_head.h
+
+1511006960 source:d:\biancheng\programming\task\joseph's ring\do.c
+	<stdio.h>
+	<stdlib.h>
+	"a_head.h"
+
+1511006903 source:d:\biancheng\programming\task\joseph's ring\main.c
+	<stdio.h>
+	<stdlib.h>
+	"a_head.h"
+
