@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1511843139 source:d:\biancheng\programming\try\2048\main.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+
