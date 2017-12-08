@@ -1,0 +1,9 @@
+# depslib dependency file v1.0
+1512313280 source:d:\biancheng\programming\task\mysort\main.c
+	<stdio.h>
+	<stdlib.h>
+
+1512547774 source:c:\users\admin\desktop\mysort\main.c
+	<stdio.h>
+	<stdlib.h>
+
