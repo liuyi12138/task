@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1513397722 source:/media/zhangkun/LENOVO/programming/try/mytree/main.c
+	<stdio.h>
+	<stdlib.h>
+
